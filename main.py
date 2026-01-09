@@ -74,4 +74,11 @@ elif page == "Inflation Model Builder":
     if projected_inflation > 30:
         st.error("Warning: Model suggests High Inflationary pressure.")
     else:
+
         st.success("Model suggests Inflationary cooling.")
+
+
+# This adds some empty space before your name
+st.sidebar.markdown("---") 
+st.sidebar.write("### Developed by:")
+st.sidebar.info("Areeb Khawer")
